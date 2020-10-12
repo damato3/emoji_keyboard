@@ -232,12 +232,10 @@ class _EmojiKeyboardHeader implements SliverPersistentHeaderDelegate {
   OverScrollHeaderStretchConfiguration get stretchConfiguration => null;
 
   @override
-  // TODO: implement showOnScreenConfiguration
-  PersistentHeaderShowOnScreenConfiguration get showOnScreenConfiguration => throw UnimplementedError();
+  PersistentHeaderShowOnScreenConfiguration get showOnScreenConfiguration => null;
 
   @override
-  // TODO: implement vsync
-  TickerProvider get vsync => throw UnimplementedError();
+  TickerProvider get vsync => null;
 }
 
 /// CategoryTitles class that used to define all category titles.
